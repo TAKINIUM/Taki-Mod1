@@ -1,0 +1,76 @@
+[
+    {
+		"name": "France" ,
+		"leaderName": "Macron" ,
+		"adjective": ["Français"] ,
+		"startBias": ["Plains"] ,
+		"preferredVictoryType":"Domination" ,
+
+		"startIntroPart1": "." ,
+		"startIntroPart2": "." ,
+
+		"declaringWar": "." ,
+		"attacked": "." ,
+		"defeated": "." ,
+		"introduction": "." ,
+
+		"neutralHello": "." ,
+		"hateHello": "." ,
+
+		"tradeRequest": "." ,
+
+		"outerColor": [85 , 85 , 85] ,
+		"innerColor": [126 , 192 , 253] ,
+		"favoredReligion": "Christianisme" ,
+		"uniqueName": "France code" ,
+		"uniques": ["[+20]% Strength <for [Military] units>"] ,
+		"cities": [
+			"Paris" ,
+			"Lyon" ,
+			"Marseille" ,
+			"Bordeaux" ,
+			"Toulouse" ,
+			"Amiens"
+		]
+	} ,
+    {
+		"name": "Allemagne" ,
+		"leaderName": "Angela Merkel" ,
+		"adjective": ["Allemand"] ,
+		"startBias": ["Plains"] ,
+		"preferredVictoryType":"Scientifique" ,
+
+		"startIntroPart1": "." ,
+		"startIntroPart2": "." ,
+
+		"declaringWar": "." ,
+		"attacked": "." ,
+		"defeated": "." ,
+		"introduction": "." ,
+
+		"neutralHello": "." ,
+		"hateHello": "." ,
+
+		"tradeRequest": "." ,
+
+		"outerColor": [185 , 185 , 185] ,
+		"innerColor": [26 , 92 , 153] ,
+		"favoredReligion": "Christianisme" ,
+		"uniqueName": "Allemagne code" ,
+		"uniques": ["[+20]% Strength <for [Military] units>"] ,
+		"cities": [
+			"Berlin" ,
+			"Leipzig" ,
+			"Dortmund" ,
+			"Hambourg" ,
+            "Cologne" ,
+            "Stutgart" 
+		]
+	} ,
+	{
+		"name": "Barbarians",
+		"outerColor": [0, 0, 0],
+		"innerColor": [198, 243, 102],
+		"uniques": ["Can only heal by pillaging"]
+	}
+]

@@ -1,0 +1,105 @@
+[
+    // mélée
+
+	{
+		"name": "Barbare",
+		"unitType": "Mélée",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"uniques": ["Xeno", "[-33]% Strength <vs cities>"],
+		"attackSound": "",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "barbare"
+			}
+		]
+	} ,
+    {
+		"name": "Epéiste" ,
+		"unitType": "Mélée" ,
+		"movement": 2 ,
+		"strength": 5 ,
+		"cost": 20 ,
+		"uniques": [] ,
+		"attackSound": "" ,
+		"civilopediaText": [
+			{
+				"Separator": true
+			} ,
+			{
+				"text": "unité de base"
+			}
+		]
+	} ,
+
+    // distance
+
+    {
+		"name": "Archer" ,
+		"unitType": "Distance" ,
+		"movement": 2 ,
+		"range": 2 ,
+		"strength": 5 ,
+		"rangedStrength": 6 ,
+		"cost": 20 ,
+		"uniques": [] ,
+		"attackSound": "" ,
+        "requiredTech": "Agriculture" ,
+		"civilopediaText": [
+			{
+				"Separator": true
+			} ,
+			{
+				"text": "unité de base"
+			}
+		]
+	} ,
+
+    // citoyen
+
+    {
+		"name": "Colon" ,
+		"unitType": "Civilian" ,
+		"movement": 2 ,
+		"cost": 106 ,
+		"uniques": [
+			"Founds a new city" ,
+			"Excess Food converted to Production when under construction" ,
+			"Requires at least [2] population"
+		] ,
+		"hurryCostModifier": 20 ,
+        "requiredTech": "Agriculture" ,
+		"civilopediaText": [
+			{
+				"Separator": true
+			} ,
+			{
+				"text": "unité de base"
+			}
+		]
+	} ,
+	{
+		"name": "Fermier" ,
+		"unitType": "Civilian" ,
+		"movement": 2 ,
+		"uniques": [
+			"Can build [Land] improvements on tiles" ,
+			"May create improvements on water resources" ,
+			"Can build [Water] improvements on tiles"
+		] ,
+		"cost": 70 ,
+		"civilopediaText": [
+			{
+				"Separator": true
+			} ,
+			{
+                "text": "unité de base"
+            }
+		]
+	}
+]
