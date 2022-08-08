@@ -1,0 +1,28 @@
+[
+    {
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Irremovable","Unbuildable"],
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "ville"
+			}
+		]
+	},
+    {
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable","Unbuildable"],
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "camp"
+			}
+		]
+	}
+]
