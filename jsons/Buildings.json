@@ -6,7 +6,7 @@
 		"science": 2,
 		"gold": 5,
 		"culture": 1,
-		"cost": 1,
+		"cost": 10,
 		"uniques": ["Indicates the capital city"]
 	}
 ]

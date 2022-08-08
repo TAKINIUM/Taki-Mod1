@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0 ,
-		"era": "Antiquité" ,
+		"era": "Ancient era" ,
 		"techCost": 25 , 
 		"buildingCost": 60 ,
 		"techs": [
@@ -16,9 +16,10 @@
 	} ,
     {
 		"columnNumber": 1 ,
-		"era": "Antiquité" ,
+		"era": "Ancient era" ,
 		"techCost": 50 ,
 		"buildingCost": 100 ,
+		"wonderCost": 100 ,
 		"techs": [
 			{
 				"name": "Mine" ,
@@ -38,9 +39,10 @@
 	} ,
     {
 		"columnNumber": 2 ,
-		"era": "Moyen-Age" ,
+		"era": "" ,
 		"techCost": 100 ,
 		"buildingCost": 150 ,
+		"wonderCost": 150 ,
 		"techs": [
             {
 				"name": "Banque" ,
