@@ -1,0 +1,21 @@
+[
+    {
+		"name": "Banque" ,
+		"isNationalWonder": true ,
+		"production": 3 ,
+		"science": 3 ,
+		"gold": 3 ,
+		"culture": 1 ,
+		"cityStrength": 2 ,
+		"cost": 100 ,
+        "requiredTech": "Banque",
+		"uniques": [
+            ["Destroyed when the city is captured"]
+		] ,
+		"civilopediaText": [
+			{
+				"text": "Banque"
+			}
+		]
+	}
+]
