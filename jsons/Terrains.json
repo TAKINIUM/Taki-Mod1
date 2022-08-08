@@ -40,7 +40,6 @@
 			"Considered [Food] when determining start locations <in [Forest] Regions>",
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Grassland] Regions>",
-			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -69,7 +68,6 @@
 			"Considered [Food] when determining start locations <in [Desert] Regions>",
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Plains] Regions>",
-			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -87,7 +85,6 @@
 			"A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
 			"Considered [Food] when determining start locations <in [Tundra] Regions>",
 			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
-			"Becomes [Plains] when adjacent to [River]",
 			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -102,19 +99,8 @@
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
-			"Becomes [Flood plains] when adjacent to [River]",
 			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
-	},
-	{
-		"name": "Lakes",
-		"type": "Water",
-		"food": 2,
-		"gold": 1,
-		"RGB": [ 123, 202, 226],
-		"uniques": ["Fresh water",
-			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"]
 	},
 	{
 		"name": "Mountain",
@@ -141,7 +127,6 @@
 			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
 			"Always Fertility [-1] for Map Generation",
 			"Considered [Undesirable] when determining start locations",
-			"Becomes [Tundra] when adjacent to [River]",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Never receives any resources <in [Hill] tiles>"]
 	},
@@ -216,19 +201,6 @@
 		]
 	},
 	{
-		"name": "Marsh",
-		"type": "TerrainFeature",
-		"food": -1,
-		"movementCost": 3,
-		"unbuildable": true,
-		"defenceBonus": -0.15,
-		"occursOn": ["Grassland"],
-		"uniques": ["Rare feature",
-			"[-2] to Fertility for Map Generation",
-			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
-		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
-	},
-	{
 		"name": "Oasis",
 		"type": "TerrainFeature",
 		"food": 3,
@@ -240,17 +212,6 @@
 		"uniques": ["Fresh water", "Rare feature",
 			"Only [All Road] improvements may be built on this tile",
 			"Always Fertility [4] for Map Generation",
-			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"]
-	},
-	{
-		"name": "Flood plains",
-		"type": "TerrainFeature",
-		"food": 2,
-		"movementCost": 1,
-		"defenceBonus": -0.1,
-		"occursOn": ["Desert"],
-		"uniques": ["Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"]
 	},
