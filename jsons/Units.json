@@ -35,7 +35,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
@@ -50,8 +49,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	}
 ]
