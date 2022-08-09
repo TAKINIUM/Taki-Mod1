@@ -151,6 +151,11 @@
         "uniques": ["[+2 Production] <in cities with at least [1] [Specialists]>"]
     },
     {
+        "name": "Holy Warriors",
+        "type": "Follower",
+        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
+    },
+    {
         "name": "Liturgical Drama",
         "type": "Follower",
         "uniques": ["[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
