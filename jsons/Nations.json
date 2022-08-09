@@ -489,7 +489,7 @@
 		"innerColor": [255,255,78],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wayfinding",
-		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>", "[+10]% Strength <within [2] tiles of a [Moai]>"],
+		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>" ],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
@@ -823,7 +823,7 @@
 		"innerColor": [81,0,137],
 		"favoredReligion": "Islam",
 		"uniqueName": "Phoenician Heritage",
-		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
+		"uniques": ["Land units may cross [Mountain] tiles after the first [Great General] is earned",
 			"Units ending their turn on [Mountain] tiles take [50] damage"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
@@ -966,8 +966,7 @@
 		"innerColor": [24,63,66], // color picker: 1f4a4d
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
-		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
-			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
+		"uniques": ["Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
  		// Parameters: tech, comment, amount, comment. Compare "Free [Great General] appears" as used by policies
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
 			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
