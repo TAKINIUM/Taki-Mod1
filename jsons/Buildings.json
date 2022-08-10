@@ -21,8 +21,6 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	},
-
-	// Column 1
 	{
 		"name": "Granary",
 		"food": 2,
@@ -50,7 +48,6 @@
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
-	// Column 14
 	{
 		"name": "Apollo Program",
 		"cost": 750,
@@ -58,22 +55,15 @@
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"]
 	},
-
-	// Information Era
-
-
 	{
 		"name": "United Nations",
 		"isWonder": true,
+		"cost": 750,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"requiredTech": "Globalization",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
-
-	// All Eras
-
 	{
 		"name": "Utopia Project",
 		"cost": 1500,
