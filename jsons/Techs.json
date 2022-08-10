@@ -22,7 +22,7 @@
 		"techs": [
 			{
 				"name": "Pottery",
-				"row": 2,
+				"row": 4,
 				"prerequisites": ["Agriculture"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
@@ -34,17 +34,84 @@
 			},
 			{
 				"name": "Archery",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Agriculture"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
 			{
 				"name": "Mining",
-				"row": 9,
+				"row": 7,
 				"prerequisites": ["Agriculture"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
 
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Ancient era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Calendar",
+				"row": 3,
+				"prerequisites": ["Pottery"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
+			{
+				"name": "Writing",
+				"row": 4,
+				"prerequisites": ["Pottery"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+			{
+				"name": "Trapping",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+			},
+			{
+				"name": "The Wheel",
+				"row": 6,
+				"prerequisites": ["Animal Husbandry", "Archery"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
+				"name": "Masonry",
+				"row": 7,
+				"prerequisites": ["Mining"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "Bronze Working",
+				"row": 8,
+				"prerequisites": ["Mining"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			}
+		]
+	} ,
+	{
+		"columnNumber": 3,
+		"era": "Classical era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Construction",
+				"row": 6,
+				"prerequisites": [
+					"Masonry",
+					"The Wheel",
+					"Bronze Working",
+					"Trapping",
+					"Writing",
+					"Calendar"
+				],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			}
 		]
 	}
 ]

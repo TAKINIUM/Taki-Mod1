@@ -4,7 +4,9 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles"],
+		"uniques": [
+			"Can build [Land] improvements on tiles"
+		],
 		"cost": 70
 	},
 	{
@@ -12,8 +14,11 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+		"uniques": [
+			"Founds a new city", 
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
 		"hurryCostModifier": 20
 	},
 	{
@@ -22,7 +27,9 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -32,10 +39,9 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
+			{"text": "unité de base"}
 		]
 	},
 	{
@@ -55,17 +61,19 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
+		"requiredTech": "Archery",
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Bowman",
 		"unitType": "Archery",
+		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 9,
 		"cost": 40,
 		"replaces": "Archer",
-		"uniqueTo": "Babylon",
+		"requiredTech": "Archery",
 		"attackSound": "arrow"
 	},
 	{
@@ -73,7 +81,10 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"uniques": ["May create improvements on water resources", "Uncapturable"]
+		"uniques": [
+			"May create improvements on water resources", 
+			"Uncapturable"
+		]
 	},
 	{
 		"name": "Trireme",
@@ -81,7 +92,11 @@
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"Cannot enter ocean tiles", 
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech": "Archery",
 		"attackSound": "nonmetalhit"
 	},
 
@@ -129,46 +144,5 @@
 			"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
 				"Great Person - [War]", "Unbuildable", "Uncapturable"],
 			"movement": 2
-		},
-
-	/* Spaceship Parts */
-
-	// Must be transported to the Capital for launch.
-	// Can be destroyed by any hostile military unit walking in their tile.
-	{
-		"name": "SS Booster",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Cockpit",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Engine",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Stasis Chamber",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	}
+		}
 ]
