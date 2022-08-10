@@ -25,7 +25,6 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
@@ -36,7 +35,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
@@ -52,7 +50,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"obsoleteTech": "Metal Casting",
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -65,7 +62,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"obsoleteTech": "Metal Casting",
 		"promotions": ["[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -78,7 +74,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
-		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
@@ -89,8 +84,6 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
@@ -101,8 +94,6 @@
 		"strength": 7,
 		"rangedStrength": 9,
 		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
@@ -117,8 +108,6 @@
 		"strength": 4,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"promotions": ["Slinger Withdraw"],
 		"attackSound": "arrow"
@@ -130,8 +119,6 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 36,
-		"requiredTech": "Agriculture",
-		"obsoleteTech": "Construction",
 		"replaces": "Archer",
 		"uniqueTo": "The Maya",
 		"upgradesTo": "Composite Bowman",
@@ -146,8 +133,6 @@
 		"strength": 4,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
@@ -156,7 +141,6 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable"]
 	},
 	{
@@ -165,10 +149,8 @@
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
-		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -179,10 +161,8 @@
 		"movement": 4,
 		"strength": 13,
 		"cost": 45,
-		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -194,10 +174,8 @@
 		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
 		"upgradesTo": "Galleass",
-		"obsoleteTech": "Astronomy",
 		"attackSound": "arrow"
 	},
 	{
@@ -209,7 +187,6 @@
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Trireme",
-		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
@@ -220,10 +197,8 @@
 		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
@@ -236,9 +211,7 @@
 		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
 		"attackSound": "arrow"
 	},
@@ -251,9 +224,7 @@
 		"strength": 7,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
@@ -267,9 +238,7 @@
 		"strength": 9,
 		"rangedStrength": 11,
 		"cost": 70,
-		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"attackSound": "elephant"
 	},
@@ -279,8 +248,6 @@
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -293,8 +260,6 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -307,8 +272,6 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"promotions":["[Persian Immortal] ability"],
@@ -322,8 +285,6 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 75,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
 		"[-1] Sight", "Can only attack [City] units"],
@@ -338,8 +299,6 @@
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
 		"promotions": ["Pictish Courage"],
@@ -353,8 +312,6 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -367,10 +324,8 @@
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
-		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -383,9 +338,7 @@
 		"movement": 5,
 		"strength": 14,
 		"cost": 75,
-		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals I"],
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
@@ -400,9 +353,7 @@
 		"movement": 3,
 		"strength": 14,
 		"cost": 100,
-		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals II"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
@@ -417,9 +368,7 @@
 		"movement": 3,
 		"strength": 15,
 		"cost": 75,
-		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
@@ -432,8 +381,6 @@
 		"strength": 7,
 		"rangedStrength": 8,
 		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
@@ -449,8 +396,6 @@
 		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight"],
@@ -464,8 +409,6 @@
 		"strength": 7,
 		"rangedStrength": 11,
 		"cost": 75,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
@@ -475,9 +418,7 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
-		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -490,9 +431,7 @@
 		"movement": 2,
 		"strength": 17,
 		"cost": 75,
-		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
@@ -506,9 +445,7 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
-		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
@@ -537,10 +474,8 @@
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
-		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 	},
 	{
@@ -551,10 +486,8 @@
 		"movement": 2,
 		"strength": 16,
 		"cost": 45,
-		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
 	},
@@ -565,8 +498,6 @@
 		"strength": 16,
 		"rangedStrength": 17,
 		"cost": 100,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
@@ -577,8 +508,6 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
@@ -593,10 +522,8 @@
 		"strength": 17,
 		"rangedStrength": 21,
 		"cost": 120,
-		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "arrow"
 		//Camel Archer should have no penalty attacking cities
@@ -609,10 +536,8 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 135,
-		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
@@ -627,8 +552,6 @@
 		"movement": 3,
 		"strength": 25,
 		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "elephant"
@@ -641,10 +564,8 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 110,
-		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "horse"
 	},
@@ -658,10 +579,8 @@
 		"strength": 15,
 		"rangedStrength": 16,
 		"cost": 120,
-		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
@@ -674,9 +593,7 @@
 		"strength": 13,
 		"rangedStrength": 18,
 		"cost": 120,
-		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
 	{
