@@ -3,7 +3,7 @@ size: 128, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/Allemagne
+NationIcons/Wer
   rotate: false
   xy: 0, 0
   size: 100, 100
