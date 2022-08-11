@@ -1,8 +1,0 @@
-<atlas numImages="4">
-  <texture file="NationIcons0.png" trans="true">
-    <image name="Allemagne" x="0" y="100" width="100" height="100"/>
-    <image name="france" x="0" y="0" width="100" height="100"/>
-    <image name="Russie" x="100" y="0" width="100" height="100"/>
-    <image name="Ukraine" x="200" y="0" width="56" height="91" xOffset="21" yOffset="5" transWidth="100" transHeight="100"/>
-  </texture>
-</atlas>
