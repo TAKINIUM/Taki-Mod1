@@ -1,18 +1,18 @@
-game.png
+NationIcons0.png
 size: 128, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/Wer
+NationIcons/France
   rotate: false
-  xy: 0, 0
+  xy: 0, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/France
+NationIcons/Wer
   rotate: false
-  xy: 0, 100
+  xy: 0, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
