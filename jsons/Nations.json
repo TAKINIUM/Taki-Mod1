@@ -157,6 +157,41 @@
 			"Sloviansk"
 		]
 	},
+	{
+		"name": "JapaNael",
+		"leaderName": "Nael",
+		"adjective": ["Japanaelois"],
+		
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		
+		"outerColor": [18, 17, 82],
+		"innerColor": [39, 37, 201],
+		
+		"favoredReligion": "Christianity",
+		
+		"uniqueName": "DJ de Luxe",
+		"uniques": [
+			"[+1 Culture] [in all cities]" ,
+			"[+1 Science] [in all cities]"
+			   ],
+		"cities": [
+			"Loos-en-Gohelle" ,
+			"JapaNael"
+		]
+	},
 
 
 
