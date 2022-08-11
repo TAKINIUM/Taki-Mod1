@@ -4,16 +4,16 @@ size: 256, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/France
+NationIcons/Allemagne
   rotate: false
-  xy: 0 , 0
+  xy: 0 , 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Allemagne
+NationIcons/France
   rotate: false
-  xy: 0 , 100
+  xy: 0 , 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
