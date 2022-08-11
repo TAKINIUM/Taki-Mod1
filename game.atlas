@@ -25,3 +25,10 @@ NationIcons/Allemagne
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Ukraine
+  rotate: false
+  xy: 200, 0
+  size: 56, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
