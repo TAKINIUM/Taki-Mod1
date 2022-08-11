@@ -6,7 +6,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Allemagne
   rotate: false
-  xy: 0 , 0
+  xy: 0 , 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -14,6 +14,20 @@ NationIcons/Allemagne
 NationIcons/France
   rotate: false
   xy: 0 , 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Ukraine
+  rotate: false
+  xy: 200 , 0
+  size: 56, 91
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Russie
+  rotate: false
+  xy: 100 , 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
