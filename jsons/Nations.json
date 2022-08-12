@@ -8,7 +8,7 @@
 
 	{
 		"name": "France",
-		"leaderName": "Napoleon",
+		"leaderName": "Emmanuel Macron",
 		"adjective": ["French"],
 		"preferredVictoryType": "Cultural",
 
@@ -21,44 +21,88 @@
 		"neutralHello": "Hello.",
 		"hateHello": "It's you.",
 		"tradeRequest": "France offers you this exceptional proposition.",
-		"outerColor": [ 38, 98, 255],
+		"outerColor": [38,98,255],
 		"innerColor": [239,236,148],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
-		"uniques": ["[+2 Culture] [in all cities]"],
-		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
-			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
-			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
-			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
+		"uniques": [
+			"[+2 Culture] [in all cities]"
+		],
+		"cities": [
+			"Paris",
+			"Orleans",
+			"Lyon",
+			"Troyes",
+			"Tours",
+			"Marseille",
+			"Chartres",
+			"Avignon",
+			"Rouen",
+			"Grenoble",
+			"Dijon",
+			"Amiens",
+			"Cherbourg",
+			"Poitiers",
+			"Toulouse",
+			"Bayonne",
+			"Strasbourg",
+			"Brest",
+			"Bordeaux",
+			"Rennes",
+			"Nice",
+			"Saint Etienne",
+			"Nantes",
+			"Reims",
+			"Le Mans",
+			"Montpellier",
+			"Limoges",
+			"Nancy",
+			"Lille",
+			"Caen",
+			"Toulon",
+			"Le Havre",
+			"Lourdes",
+			"Cannes",
+			"Aix-En-Provence",
+			"La Rochelle",
+			"Bourges",
+			"Calais"
+		]
 	},
 	{
 		"name": "Russie",
-		"leaderName": "Napoleon",
+		"leaderName": "Vladimir Poutine",
 		"adjective": ["Russian"],
-		"preferredVictoryType": "Cultural",
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
 
-		"startIntroPart1": "Long life and triumph to you, First Consul and Emperor of France, Napoleon I, ruler of the French people. France lies at the heart of Europe. Long has Paris been the world center of culture, arts and letters. Although surrounded by competitors - and often enemies - France has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
-		"startIntroPart2": "Napoleon Bonaparte, France yearns for you to rebuild your empire, to lead her once more to glory and greatness, to make France once more the epicenter of culture and refinement. Emperor, will you ride once more against your foes? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "You're disturbing us, prepare for war.",
-		"attacked": "You've fallen into my trap. I'll bury you.",
-		"defeated": "I congratulate you for your victory.",
-		"introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
-		"neutralHello": "Hello.",
-		"hateHello": "It's you.",
-		"tradeRequest": "France offers you this exceptional proposition.",
-		"outerColor": [ 38, 98, 255],
-		"innerColor": [239,236,148],
+		"startIntroPart1": "Greetings upon thee, Your Imperial Majesty Catherine, wondrous Empress of all the Russias. At your command lies the largest country in the world. Mighty Russia stretches from the Pacific Ocean in the east to the Baltic Sea in the west. Despite wars, droughts, and every manner of disaster the heroic Russian people survive and prosper, their artists and scientists among the best in the world. The Empire today remains one of the strongest ever seen in human history - a true superpower, with the greatest destructive force ever devised at her command.",
+		"startIntroPart2": "Catherine, your people look to you to bring forth glorious days for Russia and her people, to revitalize the land and recapture the wonder of the Enlightenment. Will you lead your people once more into greatness? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [ 236, 178, 0],
+		"innerColor": [0,0,0],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Russie",
-		"uniques": ["[+2 Culture] [in all cities]"],
-		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
-			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
-			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
-			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
+		"uniqueName": "Siberian Riches",
+		"uniques": [
+			"[+1 Production] from every [Strategic resource]",
+			"Double quantity of [Horses] produced",
+			"Double quantity of [Iron] produced",
+			"Double quantity of [Uranium] produced"
+		],
+		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+		"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+		"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+		"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"]
 	},
 	{
 		"name": "Allemagne",
-		"leaderName": "Otto von Bismarck",
+		"leaderName": "Angela Merkel",
 		"adjective": ["German"],
 		"preferredVictoryType": "Scientific",
 		"startIntroPart1": "Hail mighty Bismarck, first chancellor of Germany and her empire! Germany is an upstart nation, fashioned from the ruins of the Holy Roman Empire and finally unified in 1871, a little more than a century ago. The German people have proven themselves to be creative, industrious and ferocious warriors. Despite enduring great catastrophes in the first half of the 20th century, Germany remains a worldwide economic, artistic and technological leader.",
@@ -74,8 +118,10 @@
 		"innerColor": [60,60,60],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
-		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
-			"[-25]% maintenance costs <for [Land] units>"],
+		"uniques": [
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
+			"[-25]% maintenance costs <for [Land] units>"
+		],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -85,29 +131,23 @@
 	},
 	{
 		"name": "Ukraine",
-		"leaderName": "Ivan Sirko",
+		"leaderName": "Volodimir Zielinsky",
 		"adjective": ["Ukrainian"],
-		
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Hail to you, o great hetman Ivan Sirko. Ukraine is one of the successors of the medieval realm of Kievan Rus. As such, Ukraine has a claim to the lands of the Rus alongside Russia. This has brought Ukraine and Russia conflict against each other on who leads Kiev. Ukraine is led by Ivan Sirko and his Cossack hosts.",
 		"startIntroPart2": "Lord Hetman, the Cossacks look to you to lead them into freedom and greatness. Will you wrest the Rus away from the Muscovite pretenders? Can you build a civilization that will stand the test of time?",
-		
 		"declaringWar": "Your lands will soon be mine, prepare for war!",
 		"attacked": "Have you declared war on us? This was a huge mistake on your part, prepare to be destroyed!",
 		"defeated": "You have destroyed our once great civilization. History will not look kindly upon you.",
 		"introduction": "Greetings, stranger! I am Ivan Sirko, Vataman of Zaporizhian Cossacks. Gaze in awe on the majesty that is our great civilization!",
-		
 		"neutralHello": "Hello!",
 		"hateHello": "You again! What did you want?",
 		"tradeRequest": "Well, how is my proposal to you?",
-		
 		"outerColor": [0,0,255],
 		"innerColor": [255,255,0],
-		
 		"favoredReligion": "Christianity",
-		
 		"uniqueName": "Fertile Lands",
 		"uniques": ["Double quantity of [Wheat] produced",
 			    "Double quantity of [Iron] produced",
@@ -161,39 +201,75 @@
 		"name": "JapaNael",
 		"leaderName": "Nael",
 		"adjective": ["Japanaelois"],
-		
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
-		
 		"startIntroPart1": "",
 		"startIntroPart2": "",
-		
 		"declaringWar": "",
 		"attacked": "",
 		"defeated": "",
 		"introduction": "",
-		
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		
 		"outerColor": [18, 17, 82],
-		"innerColor": [39, 37, 201],
-		
+		"innerColor": [19, 16, 209],
 		"favoredReligion": "Christianity",
-		
 		"uniqueName": "DJ de Luxe",
 		"uniques": [
 			"[+1 Culture] [in all cities]" ,
 			"[+1 Science] [in all cities]"
 			   ],
 		"cities": [
-			"Loos-en-Gohelle" ,
-			"JapaNael"
+			"Aix Noulette" ,
+			"Loos-en-Gohelle",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9"
 		]
 	},
-
-
+	{
+		"name": "Takinstan",
+		"leaderName": "Takinium",
+		"adjective": ["Takinien"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [18, 17, 82],
+		"innerColor": [19, 16, 209],
+		"favoredReligion": "Christianity",
+		"uniqueName": "",
+		"uniques": [
+			"[+2 Culture] [in all cities]" ,
+			"[+2 Science] [in all cities]"
+			   ],
+		"cities": [
+			"Takiville" ,
+			"Albert",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9"
+		]
+	},
 
 	//Barbarian
 	{
