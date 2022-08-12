@@ -270,6 +270,41 @@
 			"9"
 		]
 	},
+	{
+		"name": "Couscoussie",
+		"leaderName": "Musin",
+		"adjective": ["Couscoussoi"],
+		"preferredVictoryType": "Diplomatic",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [18, 17, 82],
+		"innerColor": [19, 16, 209],
+		"favoredReligion": "Christianity",
+		"uniqueName": "",
+		"uniques": [
+			"[+2 gold] [in all cities],
+			   ],
+		"cities": [
+			"Devast City" ,
+			"Mametz",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9"
+		]
+	},
 
 	//Barbarian
 	{
