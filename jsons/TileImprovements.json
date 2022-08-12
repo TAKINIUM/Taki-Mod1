@@ -15,14 +15,14 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Mining",
+		"techRequired": "Minage",
 		"uniques": [ "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
-		"techRequired": "Animal Husbandry",
+		"techRequired": "Chasse",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
