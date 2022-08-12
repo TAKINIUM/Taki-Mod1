@@ -61,7 +61,7 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Archery",
+		"requiredTech": "Archerie",
 		"attackSound": "arrow"
 	},
 	{
@@ -73,7 +73,7 @@
 		"rangedStrength": 9,
 		"cost": 40,
 		"replaces": "Archer",
-		"requiredTech": "Archery",
+		"requiredTech": "Archerie",
 		"attackSound": "arrow"
 	},
 	{
