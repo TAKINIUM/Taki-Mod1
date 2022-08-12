@@ -32,9 +32,15 @@
 				"prerequisites": ["Agriculture"],
 				"quote": ""
 			},
+                        {
+				"name": "Chevalerie",
+				"row": 6,
+				"prerequisites": ["Agriculture"],
+				"quote": ""
+			},
 			{
 				"name": "Archerie",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Agriculture"],
 				"quote": ""
 			},
