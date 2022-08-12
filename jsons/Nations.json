@@ -235,7 +235,7 @@
 		]
 	},
 	{
-		"name": "Takinstan",
+		"name": "Takistan",
 		"leaderName": "Takinium",
 		"adjective": ["Takinien"],
 		"preferredVictoryType": "Scientific",
@@ -251,7 +251,7 @@
 		"outerColor": [18, 17, 82],
 		"innerColor": [19, 16, 209],
 		"favoredReligion": "Christianity",
-		"uniqueName": "",
+		"uniqueName": "Takistan",
 		"uniques": [
 			"[+2 Culture] [in all cities]" ,
 			"[+2 Science] [in all cities]"
@@ -287,9 +287,10 @@
 		"outerColor": [18, 17, 82],
 		"innerColor": [19, 16, 209],
 		"favoredReligion": "Christianity",
-		"uniqueName": "",
+		"uniqueName": "Couscoussie",
 		"uniques": [
-			"[+2 gold] [in all cities]",
+                    "[+2 gold] [in all cities]",
+                ],
 		"cities": [
 			"Devast City" ,
 			"Mametz",
