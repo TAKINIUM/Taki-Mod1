@@ -31,14 +31,14 @@
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"
 		],
-		"requiredTech": "Pottery"
+		"requiredTech": "Chasse"
 	},
 	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Chasse",
 		"uniques": [
 			"Hidden when religion is disabled"
 		]
@@ -52,7 +52,7 @@
 			"[+10]% [Food] [in all cities]", 
 			"[+15]% Production when constructing [Ranged] units [in all cities]"
 		],
-		"requiredTech": "Archery",
+		"requiredTech": "Archerie",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	{
@@ -80,6 +80,20 @@
 		"requiredTech": "Construction",
 		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Paper Maker",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Ingénieurie"
 	},
 
 	// Religious buildings
