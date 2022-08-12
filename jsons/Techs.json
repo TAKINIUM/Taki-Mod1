@@ -170,7 +170,7 @@
 			{
 				"name": "Economie",
 				"row": 7,
-				"prerequisites": ["Guildes"],
+				"prerequisites": ["Guilde"],
 				"quote": ""
 			},
 			{
