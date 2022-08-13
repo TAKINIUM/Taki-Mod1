@@ -300,7 +300,7 @@
     {
         "name": "Takinisme",
         "type": "Pantheon",
-        "uniques": ["[+100 Science] for each global city following this religion"]
+        "uniques": ["[+100 Production] <in cities with at least [3] [Population]>"]
     }
 
 
