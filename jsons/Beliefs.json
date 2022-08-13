@@ -297,4 +297,11 @@
         "type": "Enhancer",
         "uniques": ["[+50 Faith] whenever a Great Person is expended"]
     }
+    {
+        "name": "Takinisme",
+        "type": "Pantheon",
+        "uniques": ["[+100 Science] for each global city following this religion"]
+    }
+
+
 ]
