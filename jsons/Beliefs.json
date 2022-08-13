@@ -2,7 +2,7 @@
     {    
         "name": "Dieu des artisans",
         "type": "Pantheon",
-        "uniques": ["[+2 Production] <in cities with at least [3] [Population]>",
+        "uniques": ["[+2 Production] <in cities with at least [3] [Population]>"]
     },
     {
         "name": "Dieu de la fertilité",
@@ -10,12 +10,13 @@
         "uniques": ["[+10]% growth [in this city]"]
     },
     {
-        "name": Dieu du ciel",
+        "name": "Dieu du ciel",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Pasture]"]
     },
     {    
         "name": "Takinisme",
+        "uniqueto": "Takistan"
         "type": "Pantheon",
         "uniques": ["[+100 Production] <in cities with at least [3] [Population]>",
                     "[+100 Science] <in cities with at least [3] [Population]>"]
