@@ -21,30 +21,199 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Poterie",
+				"name": "Pêche",
 				"row": 4,
 				"prerequisites": ["Agriculture"],
 				"quote": ""
 			},
 			{
-				"name": "Pêche",
+				"name": "Chasse",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"quote": ""
+			},
+                        {
+				"name": "Chevalerie",
 				"row": 6,
 				"prerequisites": ["Agriculture"],
 				"quote": ""
 			},
 			{
-				"name": "Chasse",
-				"row": 8,
+				"name": "Archerie",
+				"row": 7,
 				"prerequisites": ["Agriculture"],
 				"quote": ""
 			},
 			{
-				"name": "Exploitation minière",
-				"row": 10,
+				"name": "Minage",
+				"row": 8,
 				"prerequisites": ["Agriculture"],
 				"quote": ""
 			}
 
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 65,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Optique",
+				"row": 3,
+				"prerequisites": ["Pêche"],
+				"cost": 80 ,
+				"quote": ""
+			},
+			{
+				"name": "Astronomie",
+				"row": 4,
+				"prerequisites": ["Pêche"],
+				"quote": ""
+			},
+			{
+				"name": "Piège",
+				"row": 5,
+				"prerequisites": ["Chasse"],
+				"quote": ""
+			},
+			{
+				"name": "La roue",
+				"row": 6,
+				"prerequisites": ["Chasse"],
+				"quote": ""
+			},
+			{
+				"name": "Service civil",
+				"row": 7,
+				"prerequisites": ["Archerie"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "Travail du bronze",
+				"row": 8,
+				"prerequisites": ["Minage"],
+				"quote": ""
+			}
+		]
+	} ,
+	{
+		"columnNumber": 3,
+		"era": "Medieval era",
+		"techCost": 150,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Compas",
+				"row": 4,
+				"prerequisites": ["Optique" , "Astronomie"],
+				"uniques": ["Enables embarkation for land units"],
+				"cost": 140 ,
+				"quote": ""
+			},
+			{
+				"name": "Mathématiques",
+				"row": 5,
+				"prerequisites": ["Piège" , "Astronomie"],
+				"quote": ""
+			},
+			{
+				"name": "Construction",
+				"row": 6,
+				"prerequisites": ["La roue"],
+				"quote": ""
+			},
+			{
+				"name": "Guilde",
+				"row": 7,
+				"prerequisites": ["Service civil"],
+				"quote": ""
+			},
+			{
+				"name": "Ingénieurie",
+				"row": 8,
+				"prerequisites": ["Travail du bronze"],
+				"quote": ""
+			},
+			{
+				"name": "Travail du fer",
+				"row": 9,
+				"prerequisites": ["Travail du bronze"],
+				"cost": 165,
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Medieval era",
+		"techCost": 200,
+		"buildingCost": 160,
+		"wonderCost": 320,
+		"techs": [
+			{
+				"name": "Navigation",
+				"row": 4,
+				"prerequisites": ["Mathématiques" , "Compas"],
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
+				"quote": ""
+			},
+			{
+				"name": "Education",
+				"row": 5,
+				"prerequisites": ["Mathématiques"],
+				"quote": ""
+			},
+			{
+				"name": "Machinerie",
+				"row": 6,
+				"prerequisites": ["Mathématiques" , "Construction"],
+				"quote": ""
+			},
+			{
+				"name": "Economie",
+				"row": 7,
+				"prerequisites": ["Guilde"],
+				"quote": ""
+			},
+			{
+				"name": "Phisiques",
+				"row": 8,
+				"prerequisites": ["Ingénieurie" , "Travail du fer"],
+				"quote": ""
+			},
+			{
+				"name": "Fonte du métal",
+				"row": 9,
+				"prerequisites": ["Travail du fer"],
+				"cost": 220,
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Medieval era",
+		"techCost": 275,
+		"buildingCost": 230,
+		"wonderCost": 420,
+		"techs": [
+			{
+				"name": "Monarchie Absolue",
+				"row": 6,
+				"prerequisites": [
+					"Navigation",
+					"Education",
+					"Machinerie",
+					"Economie",
+					"Phisiques",
+					"Fonte du métal"
+				],
+				"quote": ""
+			}
 		]
 	}
 ]
