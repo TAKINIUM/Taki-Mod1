@@ -16,7 +16,7 @@
     },
     {    
         "name": "Takinisme",
-        "uniqueto": "Takistan"
+        "uniqueto": "Takistan",
         "type": "Pantheon",
         "uniques": ["[+100 Production] <in cities with at least [3] [Population]>",
                     "[+100 Science] <in cities with at least [3] [Population]>"]
