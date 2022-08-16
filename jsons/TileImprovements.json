@@ -15,7 +15,7 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Minage",
+		"techRequired": "Exploitation minière",
 		"uniques": [ "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
