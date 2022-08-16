@@ -135,7 +135,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Maçconnerie",
+				"name": "Mathématiques",
 				"row": 9,
 				"prerequisites": ["Maçconnerie"],
 				"quote": ""
@@ -144,6 +144,183 @@
 				"name": "Construction",
 				"row": 10,
 				"prerequisites": ["Maçconnerie"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Medieval era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Théologie",
+				"row": 2,
+				"prerequisites": ["Croyance"],
+				"quote": ""
+			},
+			{
+				"name": "Optique",
+				"row": 4,
+				"prerequisites": ["Calendrier"],
+				"quote": ""
+			},
+			{
+				"name": "Navigation à Voile",
+				"row": 5,
+				"prerequisites": ["Calendrier"],
+				"quote": ""
+			},
+			{
+				"name": "Fortification",
+				"row": 6,
+				"prerequisites": ["Défense"],
+				"quote": ""
+			},
+			{
+				"name": "Administration",
+				"row": 8,
+				"prerequisites": ["Armée" , "Mathématiques"],
+				"quote": ""
+			},
+			{
+				"name": "Monnaie",
+				"row": 9,
+				"prerequisites": ["Mathématiques"],
+				"quote": ""
+			},
+			{
+				"name": "Ingénieurie",
+				"row": 10,
+				"prerequisites": ["Construction" , "Mathématiques"],
+				"quote": ""
+			},
+			{
+				"name": "Travail du fer",
+				"row": 11,
+				"prerequisites": ["Travail du bronze"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Medieval era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Clergé",
+				"row": 2,
+				"prerequisites": ["Théologie"],
+				"quote": ""
+			},
+			{
+				"name": "Philosophie",
+				"row": 3,
+				"prerequisites": ["Théologie"],
+				"quote": ""
+			},
+			{
+				"name": "Navigation amélioré",
+				"row": 5,
+				"prerequisites": ["Navigation à Voile" , "Fortification"],
+				"quote": ""
+			},
+			{
+				"name": "Chevalerie",
+				"row": 7,
+				"prerequisites": ["Equitation" , "Administration" , "Fortification"],
+				"quote": ""
+			},
+			{
+				"name": "Economie",
+				"row": 8,
+				"prerequisites": ["Administration" , "Monnaie"],
+				"quote": ""
+			},
+			{
+				"name": "Guilde",
+				"row": 9,
+				"prerequisites": ["Monnaie"],
+				"quote": ""
+			},
+			{
+				"name": "Moulage",
+				"row": 11,
+				"prerequisites": ["Travail du fer" , "Ingénieurie"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Medieval era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Chiisme",
+				"row": 1,
+				"prerequisites": ["Clergé"],
+				"quote": ""
+			},
+			{
+				"name": "Rationnalisme",
+				"row": 2,
+				"prerequisites": ["Philosophie"],
+				"quote": ""
+			},
+			{
+				"name": "Education",
+				"row": 3,
+				"prerequisites": ["Philosophie"],
+				"quote": ""
+			},
+			{
+				"name": "Boussole",
+				"row": 4,
+				"prerequisites": ["Optique" , "Philosophie" , "Navigation améliorer"],
+				"quote": ""
+			},
+			{
+				"name": "Acoustique",
+				"row": 5,
+				"prerequisites": ["Navigation améliorer"],
+				"quote": ""
+			},
+			{
+				"name": "Armoirie",
+				"row": 7,
+				"prerequisites": ["Chevalerie"],
+				"quote": ""
+			},
+			{
+				"name": "Système banquaire",
+				"row": 8,
+				"prerequisites": ["Guilde" , "Economie" , "Chevalerie"],
+				"quote": ""
+			},
+			{
+				"name": "Mécanique",
+				"row": 10,
+				"prerequisites": ["Ingénieurie"],
+				"quote": ""
+			},
+			{
+				"name": "Physiques",
+				"row": 11,
+				"prerequisites": ["Moulage"],
+				"quote": ""
+			},
+			{
+				"name": "Acier",
+				"row": 12,
+				"prerequisites": ["Moulage"],
 				"quote": ""
 			}
 		]
