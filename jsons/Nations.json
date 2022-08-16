@@ -2,8 +2,8 @@
 	//Spectator
 	{
 		"name": "Spectator",
-		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
+		"outerColor": [255,255,255],
+		"innerColor": [255,255,255]
 	},
 
 	{
@@ -22,7 +22,7 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		"outerColor": [38,98,255],
-		// "innerColor": [239,236,148],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
@@ -85,7 +85,7 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		"outerColor": [ 236, 178, 0],
-		// "innerColor": [0,0,0],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Siberian Riches",
 		"uniques": [
@@ -114,7 +114,7 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		"outerColor": [150,150,150],
-		// "innerColor": [60,60,60],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
 		"uniques": [
@@ -144,7 +144,7 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		"outerColor": [0,0,255],
-		"innerColor": [255,255,0],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Fertile Lands",
 		"uniques": ["Double quantity of [Wheat] produced",
