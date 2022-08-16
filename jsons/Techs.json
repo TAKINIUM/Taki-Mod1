@@ -2,8 +2,8 @@
 	{
 		"columnNumber": 0,
 		"era": "Ancient era",
-		"techCost": 20,
 		"buildingCost": 40,
+		"wonderCost": 50,
 		"techs": [
 			{
 				"name": "Agriculture",
@@ -49,9 +49,9 @@
 	{
 		"columnNumber": 2,
 		"era": "Ancient era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"techCost": 35,
+		"buildingCost": 70,
+		"wonderCost": 150,
 		"techs": [
 			{
 				"name": "Poésie",
@@ -100,9 +100,9 @@
 	{
 		"columnNumber": 3,
 		"era": "Ancient era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"techCost": 55,
+		"buildingCost": 100,
+		"wonderCost": 200,
 		"techs": [
 			{
 				"name": "Croyance",
@@ -151,9 +151,9 @@
 	{
 		"columnNumber": 4,
 		"era": "Medieval era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"techCost": 80,
+		"buildingCost": 140,
+		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Théologie",
@@ -208,9 +208,9 @@
 	{
 		"columnNumber": 5,
 		"era": "Medieval era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"techCost": 115,
+		"buildingCost": 180,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Clergé",
@@ -259,9 +259,9 @@
 	{
 		"columnNumber": 6,
 		"era": "Medieval era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"techCost": 200,
+		"buildingCost": 260,
+		"wonderCost": 350,
 		"techs": [
 			{
 				"name": "Chiisme",
