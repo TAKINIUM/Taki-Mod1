@@ -284,13 +284,13 @@
 			{
 				"name": "Boussole",
 				"row": 4,
-				"prerequisites": ["Optique" , "Philosophie" , "Navigation améliorer"],
+				"prerequisites": ["Optique" , "Philosophie" , "Navigation amélioré"],
 				"quote": ""
 			},
 			{
 				"name": "Acoustique",
 				"row": 5,
-				"prerequisites": ["Navigation améliorer"],
+				"prerequisites": ["Navigation amélioré"],
 				"quote": ""
 			},
 			{
