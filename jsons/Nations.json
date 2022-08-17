@@ -2,8 +2,8 @@
 	//Spectator
 	{
 		"name": "Spectator",
-		"outerColor": [255,255,255],
-		"innerColor": [255,255,255]
+		"outerColor": [255,255,255]
+		// "innerColor": [255,255,255]
 	},
 
 	{
@@ -210,8 +210,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [18, 17, 82],
-		"innerColor": [19, 16, 209],
+		"outerColor": [43, 12, 116],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "DJ de Luxe",
 		"uniques": [
@@ -246,8 +246,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [19, 16, 209],
-		"innerColor": [18, 17, 82],
+		"outerColor": [38, 134, 179],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Takistan",
 		"uniques": [
@@ -282,8 +282,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [18, 17, 82],
-		"innerColor": [19, 16, 209],
+		"outerColor": [93, 88, 165],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Couscoussie",
 		"uniques": [
@@ -318,8 +318,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [192, 191, 221],
-		"innerColor": [114, 114, 119],
+		"outerColor": [114, 114, 119],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Arctique du Sud",
 		"uniques": [
@@ -351,8 +351,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [18, 17, 82],
-		"innerColor": [19, 16, 209],
+		"outerColor": [17, 0, 255],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "JDay's Lands",
 		"uniques": [
@@ -384,8 +384,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [110, 36, 39],
-		"innerColor": [172, 23, 23],
+		"outerColor": [172, 23, 23],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Jsp's land",
 		"uniques": [
