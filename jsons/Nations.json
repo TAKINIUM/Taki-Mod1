@@ -22,7 +22,7 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		"outerColor": [38,98,255],
-		"innerColor": [255,255,255],
+		"innerColor": [47, 45, 75],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
@@ -352,7 +352,7 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		"outerColor": [17, 0, 255],
-		"innerColor": [255,255,255],
+		"innerColor": [139, 134, 207],
 		"favoredReligion": "Christianity",
 		"uniqueName": "JDay's Lands",
 		"uniques": [
