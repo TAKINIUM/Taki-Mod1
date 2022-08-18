@@ -93,7 +93,7 @@
 		"hurryCostModifier": 25,
 		"gold": 2,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Ingénieurie"
+		"requiredTech": "Ingenieurie"
 	},
 
 	// Religious buildings
