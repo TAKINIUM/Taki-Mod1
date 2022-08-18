@@ -1,33 +1,33 @@
 
-NationIcons0.png
-size: 256, 256
+game.png
+size: 512, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Allemagne
   rotate: false
-  xy: 0 , 100
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/France
   rotate: false
-  xy: 0 , 0
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Russie
+  rotate: false
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ukraine
   rotate: false
-  xy: 200 , 0
-  size: 56, 91
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Russie
-  rotate: false
-  xy: 100 , 0
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
