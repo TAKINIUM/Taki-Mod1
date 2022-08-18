@@ -168,7 +168,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Navigation à Voile",
+				"name": "Navigation à voile",
 				"row": 5,
 				"prerequisites": ["Calendrier"],
 				"quote": ""
@@ -227,7 +227,7 @@
 			{
 				"name": "Navigation amélioré",
 				"row": 5,
-				"prerequisites": ["Navigation à Voile" , "Fortification"],
+				"prerequisites": ["Navigation à voile" , "Fortification"],
 				"quote": ""
 			},
 			{
