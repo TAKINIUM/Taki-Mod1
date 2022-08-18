@@ -328,7 +328,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Renaissance era",
-		"techCost": 200,
+		"techCost": 300,
 		"buildingCost": 260,
 		"wonderCost": 350,
 		"techs": [
@@ -385,7 +385,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Renaissance era",
-		"techCost": 200,
+		"techCost": 440,
 		"buildingCost": 260,
 		"wonderCost": 350,
 		"techs": [
@@ -430,7 +430,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Renaissance era",
-		"techCost": 200,
+		"techCost": 640,
 		"buildingCost": 260,
 		"wonderCost": 350,
 		"techs": [
