@@ -324,5 +324,146 @@
 				"quote": ""
 			}
 		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Renaissance era",
+		"techCost": 200,
+		"buildingCost": 260,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Réforme",
+				"row": 2,
+				"prerequisites": ["Rationnalisme" , "Chiisme"],
+				"quote": ""
+			},
+			{
+				"name": "Théorie scientifique",
+				"row": 3,
+				"prerequisites": ["Education" , "Rationnalisme"],
+				"quote": ""
+			},
+			{
+				"name": "astronomie",
+				"row": 4,
+				"prerequisites": ["Boussole" , "Education"],
+				"quote": ""
+			},
+			{
+				"name": "Cartographie",
+				"row": 5,
+				"prerequisites": ["Acoustique" , "Boussole"],
+				"quote": ""
+			},
+			{
+				"name": "Architecture",
+				"row": 6,
+				"prerequisites": ["Fortification" , "Armoirie" , "Acoustique"],
+				"quote": ""
+			},
+			{
+				"name": "Sciences économiques",
+				"row": 8,
+				"prerequisites": ["Système banquaire"],
+				"quote": ""
+			},
+			{
+				"name": "Imprimerie",
+				"row": 10,
+				"prerequisites": ["Mécanique"],
+				"quote": ""
+			},
+			{
+				"name": "Poudre à canon",
+				"row": 11,
+				"prerequisites": ["Physiques" , "Acier"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Renaissance era",
+		"techCost": 200,
+		"buildingCost": 260,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Humanisme",
+				"row": 3,
+				"prerequisites": ["Théorie scientifique" , "Réforme"],
+				"quote": ""
+			},
+			{
+				"name": "Navigation",
+				"row": 4,
+				"prerequisites": ["astronomie" , "Cartographie"],
+				"quote": ""
+			},
+			{
+				"name": "Représentation du monde",
+				"row": 5,
+				"prerequisites": ["Cartographie"],
+				"quote": ""
+			},
+			{
+				"name": "Commerce d'exportation",
+				"row": 7,
+				"prerequisites": ["Sciences économiques"],
+				"quote": ""
+			},
+			{
+				"name": "Métalurgie",
+				"row": 9,
+				"prerequisites": ["Imprimerie" , "Poudre à canon"],
+				"quote": ""
+			},
+			{
+				"name": "Chimie",
+				"row": 10,
+				"prerequisites": ["Poudre à canon"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Renaissance era",
+		"techCost": 200,
+		"buildingCost": 260,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Archéologie",
+				"row": 4,
+				"prerequisites": ["Humanisme" , "Navigation"],
+				"quote": ""
+			},
+			{
+				"name": "Industrialisation",
+				"row": 6,
+				"prerequisites": ["Représentation du monde" , "Commerce d'exportation" , "Architecture"],
+				"quote": ""
+			},
+			{
+				"name": "Fusil",
+				"row": 8,
+				"prerequisites": ["Métalurgie"],
+				"quote": ""
+			},
+			{
+				"name": "Sciences militaires",
+				"row": 9,
+				"prerequisites": ["Métalurgie"],
+				"quote": ""
+			},
+			{
+				"name": "Engrais",
+				"row": 10,
+				"prerequisites": ["Chimie"],
+				"quote": ""
+			}
+		]
 	}
 ]
