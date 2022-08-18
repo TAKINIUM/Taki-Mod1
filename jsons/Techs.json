@@ -84,7 +84,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Maçonnerie",
+				"name": "Maconnerie",
 				"row": 10,
 				"prerequisites": ["Exploitation miniere"],
 				"quote": ""
@@ -137,13 +137,13 @@
 			{
 				"name": "Mathematiques",
 				"row": 9,
-				"prerequisites": ["Maçonnerie"],
+				"prerequisites": ["Maconnerie"],
 				"quote": ""
 			},
 			{
 				"name": "Construction",
 				"row": 10,
-				"prerequisites": ["Maçonnerie"],
+				"prerequisites": ["Maconnerie"],
 				"quote": ""
 			}
 		]
@@ -168,7 +168,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Navigation à voile",
+				"name": "Navigation a voile",
 				"row": 5,
 				"prerequisites": ["Calendrier"],
 				"quote": ""
@@ -227,7 +227,7 @@
 			{
 				"name": "Navigation ameliore",
 				"row": 5,
-				"prerequisites": ["Navigation à voile" , "Fortification"],
+				"prerequisites": ["Navigation a voile" , "Fortification"],
 				"quote": ""
 			},
 			{
@@ -375,7 +375,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Poudre à canon",
+				"name": "Poudre a canon",
 				"row": 11,
 				"prerequisites": ["Physiques" , "Acier"],
 				"quote": ""
@@ -414,15 +414,15 @@
 				"quote": ""
 			},
 			{
-				"name": "Metalurgie",
+				"name": "Metallurgie",
 				"row": 9,
-				"prerequisites": ["Imprimerie" , "Poudre à canon"],
+				"prerequisites": ["Imprimerie" , "Poudre a canon"],
 				"quote": ""
 			},
 			{
 				"name": "Chimie",
 				"row": 10,
-				"prerequisites": ["Poudre à canon"],
+				"prerequisites": ["Poudre a canon"],
 				"quote": ""
 			}
 		]
@@ -449,13 +449,13 @@
 			{
 				"name": "Fusil",
 				"row": 8,
-				"prerequisites": ["Metalurgie"],
+				"prerequisites": ["Metallurgie"],
 				"quote": ""
 			},
 			{
 				"name": "Sciences militaires",
 				"row": 9,
-				"prerequisites": ["Metalurgie"],
+				"prerequisites": ["Metallurgie"],
 				"quote": ""
 			},
 			{
