@@ -27,7 +27,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Pèche",
+				"name": "Peche",
 				"row": 6,
 				"prerequisites": ["Agriculture"],
 				"quote": ""
@@ -39,7 +39,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Exploitation minière",
+				"name": "Exploitation miniere",
 				"row": 11,
 				"prerequisites": ["Agriculture"],
 				"quote": ""
@@ -54,7 +54,7 @@
 		"wonderCost": 150,
 		"techs": [
 			{
-				"name": "Poésie",
+				"name": "Poesie",
 				"row": 2,
 				"prerequisites": ["Potterie"],
 				"quote": ""
@@ -66,9 +66,9 @@
 				"quote": ""
 			},
 			{
-				"name": "Piège",
+				"name": "Piege",
 				"row": 6,
-				"prerequisites": ["Pèche"],
+				"prerequisites": ["Peche"],
 				"quote": ""
 			},
 			{
@@ -86,13 +86,13 @@
 			{
 				"name": "Maçonnerie",
 				"row": 10,
-				"prerequisites": ["Exploitation minière"],
+				"prerequisites": ["Exploitation miniere"],
 				"quote": ""
 			},
 			{
 				"name": "Travail du bronze",
 				"row": 11,
-				"prerequisites": ["Exploitation minière"],
+				"prerequisites": ["Exploitation miniere"],
 				"quote": ""
 			}
 		]
@@ -107,7 +107,7 @@
 			{
 				"name": "Croyance",
 				"row": 2,
-				"prerequisites": ["Poésie" , "Ecriture"],
+				"prerequisites": ["Poesie" , "Ecriture"],
 				"quote": ""
 			},
 			{
@@ -117,25 +117,25 @@
 				"quote": ""
 			},
 			{
-				"name": "Défense",
+				"name": "Defense",
 				"row": 6,
-				"prerequisites": ["Piège"],
+				"prerequisites": ["Piege"],
 				"quote": ""
 			},
 			{
 				"name": "Equitation",
 				"row": 7,
-				"prerequisites": ["Elevage" , "Piège"],
+				"prerequisites": ["Elevage" , "Piege"],
 				"quote": ""
 			},
 			{
-				"name": "Armée",
+				"name": "Armee",
 				"row": 8,
 				"prerequisites": ["Archerie"],
 				"quote": ""
 			},
 			{
-				"name": "Mathématiques",
+				"name": "Mathematiques",
 				"row": 9,
 				"prerequisites": ["Maçonnerie"],
 				"quote": ""
@@ -156,7 +156,7 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Théologie",
+				"name": "Theologie",
 				"row": 2,
 				"prerequisites": ["Croyance"],
 				"quote": ""
@@ -176,25 +176,25 @@
 			{
 				"name": "Fortification",
 				"row": 6,
-				"prerequisites": ["Défense"],
+				"prerequisites": ["Defense"],
 				"quote": ""
 			},
 			{
 				"name": "Administration",
 				"row": 8,
-				"prerequisites": ["Armée" , "Mathématiques"],
+				"prerequisites": ["Armee" , "Mathematiques"],
 				"quote": ""
 			},
 			{
 				"name": "Monnaie",
 				"row": 9,
-				"prerequisites": ["Mathématiques"],
+				"prerequisites": ["Mathematiques"],
 				"quote": ""
 			},
 			{
-				"name": "Ingénieurie",
+				"name": "Ingenieurie",
 				"row": 10,
-				"prerequisites": ["Construction" , "Mathématiques"],
+				"prerequisites": ["Construction" , "Mathematiques"],
 				"quote": ""
 			},
 			{
@@ -213,19 +213,19 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Clergé",
+				"name": "Clerge",
 				"row": 2,
-				"prerequisites": ["Théologie"],
+				"prerequisites": ["Theologie"],
 				"quote": ""
 			},
 			{
 				"name": "Philosophie",
 				"row": 3,
-				"prerequisites": ["Théologie"],
+				"prerequisites": ["Theologie"],
 				"quote": ""
 			},
 			{
-				"name": "Navigation amélioré",
+				"name": "Navigation ameliore",
 				"row": 5,
 				"prerequisites": ["Navigation à voile" , "Fortification"],
 				"quote": ""
@@ -251,7 +251,7 @@
 			{
 				"name": "Moulage",
 				"row": 11,
-				"prerequisites": ["Travail du fer" , "Ingénieurie"],
+				"prerequisites": ["Travail du fer" , "Ingenieurie"],
 				"quote": ""
 			}
 		]
@@ -266,7 +266,7 @@
 			{
 				"name": "Chiisme",
 				"row": 1,
-				"prerequisites": ["Clergé"],
+				"prerequisites": ["Clerge"],
 				"quote": ""
 			},
 			{
@@ -284,13 +284,13 @@
 			{
 				"name": "Boussole",
 				"row": 4,
-				"prerequisites": ["Optique" , "Philosophie" , "Navigation amélioré"],
+				"prerequisites": ["Optique" , "Philosophie" , "Navigation ameliore"],
 				"quote": ""
 			},
 			{
 				"name": "Acoustique",
 				"row": 5,
-				"prerequisites": ["Navigation amélioré"],
+				"prerequisites": ["Navigation ameliore"],
 				"quote": ""
 			},
 			{
@@ -300,15 +300,15 @@
 				"quote": ""
 			},
 			{
-				"name": "Système banquaire",
+				"name": "Systeme banquaire",
 				"row": 8,
 				"prerequisites": ["Guilde" , "Economie" , "Chevalerie"],
 				"quote": ""
 			},
 			{
-				"name": "Mécanique",
+				"name": "Mecanique",
 				"row": 10,
-				"prerequisites": ["Ingénieurie"],
+				"prerequisites": ["Ingenieurie"],
 				"quote": ""
 			},
 			{
@@ -333,13 +333,13 @@
 		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Réforme",
+				"name": "Reforme",
 				"row": 2,
 				"prerequisites": ["Rationnalisme" , "Chiisme"],
 				"quote": ""
 			},
 			{
-				"name": "Théorie scientifique",
+				"name": "Theorie scientifique",
 				"row": 3,
 				"prerequisites": ["Education" , "Rationnalisme"],
 				"quote": ""
@@ -363,15 +363,15 @@
 				"quote": ""
 			},
 			{
-				"name": "Sciences économiques",
+				"name": "Sciences economiques",
 				"row": 8,
-				"prerequisites": ["Système banquaire"],
+				"prerequisites": ["Systeme banquaire"],
 				"quote": ""
 			},
 			{
 				"name": "Imprimerie",
 				"row": 10,
-				"prerequisites": ["Mécanique"],
+				"prerequisites": ["Mecanique"],
 				"quote": ""
 			},
 			{
@@ -392,7 +392,7 @@
 			{
 				"name": "Humanisme",
 				"row": 3,
-				"prerequisites": ["Théorie scientifique" , "Réforme"],
+				"prerequisites": ["Theorie scientifique" , "Reforme"],
 				"quote": ""
 			},
 			{
@@ -402,7 +402,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Représentation du monde",
+				"name": "Representation du monde",
 				"row": 5,
 				"prerequisites": ["Cartographie"],
 				"quote": ""
@@ -410,11 +410,11 @@
 			{
 				"name": "Commerce d'exportation",
 				"row": 7,
-				"prerequisites": ["Sciences économiques"],
+				"prerequisites": ["Sciences economiques"],
 				"quote": ""
 			},
 			{
-				"name": "Métalurgie",
+				"name": "Metalurgie",
 				"row": 9,
 				"prerequisites": ["Imprimerie" , "Poudre à canon"],
 				"quote": ""
@@ -435,7 +435,7 @@
 		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Archéologie",
+				"name": "Archeologie",
 				"row": 4,
 				"prerequisites": ["Humanisme" , "Navigation"],
 				"quote": ""
@@ -443,19 +443,19 @@
 			{
 				"name": "Industrialisation",
 				"row": 6,
-				"prerequisites": ["Représentation du monde" , "Commerce d'exportation" , "Architecture"],
+				"prerequisites": ["Representation du monde" , "Commerce d'exportation" , "Architecture"],
 				"quote": ""
 			},
 			{
 				"name": "Fusil",
 				"row": 8,
-				"prerequisites": ["Métalurgie"],
+				"prerequisites": ["Metalurgie"],
 				"quote": ""
 			},
 			{
 				"name": "Sciences militaires",
 				"row": 9,
-				"prerequisites": ["Métalurgie"],
+				"prerequisites": ["Metalurgie"],
 				"quote": ""
 			},
 			{
