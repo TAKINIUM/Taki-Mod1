@@ -22,7 +22,7 @@
 		"hateHello": "",
 		"tradeRequest": "",
 		"outerColor": [38,98,255],
-		"innerColor": [47, 45, 75],
+		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
@@ -282,8 +282,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [93, 88, 165],
-		"innerColor": [255,255,255],
+		"outerColor": [27, 168, 187],
+		"innerColor": [221, 221, 187],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Couscoussie",
 		"uniques": [
@@ -384,8 +384,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [172, 23, 23],
-		"innerColor": [255,255,255],
+		"outerColor": [207, 171, 171],
+		"innerColor": [172, 23, 23],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Jsp's land",
 		"uniques": [
