@@ -137,7 +137,7 @@
 			{
 				"name": "Mathématiques",
 				"row": 9,
-				"prerequisites": ["Maçconnerie"],
+				"prerequisites": ["Maçonnerie"],
 				"quote": ""
 			},
 			{
