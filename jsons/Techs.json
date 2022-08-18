@@ -84,7 +84,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Maçconnerie",
+				"name": "Maçonnerie",
 				"row": 10,
 				"prerequisites": ["Exploitation minière"],
 				"quote": ""
@@ -345,7 +345,7 @@
 				"quote": ""
 			},
 			{
-				"name": "astronomie",
+				"name": "Astronomie",
 				"row": 4,
 				"prerequisites": ["Boussole" , "Education"],
 				"quote": ""
@@ -359,7 +359,7 @@
 			{
 				"name": "Architecture",
 				"row": 6,
-				"prerequisites": ["Fortification" , "Armoirie" , "Acoustique"],
+				"prerequisites": ["Armoirie" , "Acoustique"],
 				"quote": ""
 			},
 			{
@@ -398,7 +398,7 @@
 			{
 				"name": "Navigation",
 				"row": 4,
-				"prerequisites": ["astronomie" , "Cartographie"],
+				"prerequisites": ["Astronomie" , "Cartographie"],
 				"quote": ""
 			},
 			{
