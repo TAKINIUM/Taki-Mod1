@@ -582,44 +582,5 @@
 				"quote": ""
 			}
 		]
-	},
-	{
-		"columnNumber": 12,
-		"era": "Industrial era",
-		"techCost": 640,
-		"buildingCost": 260,
-		"wonderCost": 350,
-		"techs": [ 
-			{
-				"name": "Médecine",
-				"row": 4,
-				"prerequisites": ["radio"],
-				"quote": ""
-			},
-			{
-				"name": "Matière plastique",
-				"row": 5,
-				"prerequisites": ["radio"],
-				"quote": ""
-			},
-			{
-				"name": "Electronique",
-				"row": 6,
-				"prerequisites": ["Pièce de rechange" , "radio"],
-				"quote": ""
-			},
-			{
-				"name": "Balistique",
-				"row": 7,
-				"prerequisites": ["Aviation"],
-				"quote": ""
-			},
-			{
-				"name": "Combustion",
-				"row": 8,
-				"prerequisites": ["Voies férées" , "Dynamite"],
-				"quote": ""
-			}
-		]
 	}
 ]
