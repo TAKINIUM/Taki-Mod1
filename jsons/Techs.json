@@ -507,7 +507,7 @@
 		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Réfrigiration",
+				"name": "Réfrigération",
 				"row": 3,
 				"prerequisites": ["Biologie"],
 				"quote": ""
@@ -567,6 +567,51 @@
 				"name": "Electronique",
 				"row": 6,
 				"prerequisites": ["Pièce de rechange" , "radio"],
+				"quote": ""
+			},
+			{
+				"name": "Balistique",
+				"row": 7,
+				"prerequisites": ["Aviation"],
+				"quote": ""
+			},
+			{
+				"name": "Combustion",
+				"row": 8,
+				"prerequisites": ["Voies férées" , "Dynamite"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Industrial era",
+		"techCost": 640,
+		"buildingCost": 260,
+		"wonderCost": 350,
+		"techs": [ 
+			{
+				"name": "Médicament",
+				"row": 3,
+				"prerequisites": ["Médecine" , "Réfrigération"],
+				"quote": ""
+			},
+			{
+				"name": "Chirurgie",
+				"row": 4,
+				"prerequisites": ["Médecine"],
+				"quote": ""
+			},
+			{
+				"name": "Informatique",
+				"row": 5,
+				"prerequisites": ["Matière plastique" , "Electronique"],
+				"quote": ""
+			},
+			{
+				"name": "Radar",
+				"row": 6,
+				"prerequisites": ["Electronique" , "Balistique"],
 				"quote": ""
 			},
 			{
