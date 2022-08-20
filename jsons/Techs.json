@@ -415,13 +415,13 @@
 			},
 			{
 				"name": "Metallurgie",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Imprimerie" , "Poudre a canon"],
 				"quote": ""
 			},
 			{
 				"name": "Chimie",
-				"row": 10,
+				"row": 11,
 				"prerequisites": ["Poudre a canon"],
 				"quote": ""
 			}
@@ -436,7 +436,7 @@
 		"techs": [
 			{
 				"name": "Archeologie",
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Humanisme" , "Navigation"],
 				"quote": ""
 			},
@@ -448,19 +448,19 @@
 			},
 			{
 				"name": "Fusil",
-				"row": 8,
-				"prerequisites": ["Metallurgie"],
-				"quote": ""
-			},
-			{
-				"name": "Sciences militaires",
 				"row": 9,
 				"prerequisites": ["Metallurgie"],
 				"quote": ""
 			},
 			{
-				"name": "Engrais",
+				"name": "Sciences militaires",
 				"row": 10,
+				"prerequisites": ["Metallurgie"],
+				"quote": ""
+			},
+			{
+				"name": "Engrais",
+				"row": 11,
 				"prerequisites": ["Chimie"],
 				"quote": ""
 			}
@@ -475,7 +475,7 @@
 		"techs": [
 			{
 				"name": "Biologie",
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Archeologie"],
 				"quote": ""
 			},
@@ -493,8 +493,131 @@
 			},
 			{
 				"name": "Explosif",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Engrais" , "Sciences militaires"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Industrial era",
+		"techCost": 640,
+		"buildingCost": 260,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Réfrigiration",
+				"row": 3,
+				"prerequisites": ["Biologie"],
+				"quote": ""
+			},
+			{
+				"name": "radio",
+				"row": 5,
+				"prerequisites": ["Electricité"],
+				"quote": ""
+			},
+			{
+				"name": "Pièce de rechange",
+				"row": 6,
+				"prerequisites": ["Moteur à vapeur"],
+				"quote": ""
+			},
+			{
+				"name": "Aviation",
+				"row": 7,
+				"prerequisites": ["Moteur à vapeur"],
+				"quote": ""
+			},
+			{
+				"name": "Voies férées",
+				"row": 8,
+				"prerequisites": ["Moteur à vapeur"],
+				"quote": ""
+			},
+			{
+				"name": "Dynamite",
+				"row": 9,
+				"prerequisites": ["Explosif" , "Fusil"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Industrial era",
+		"techCost": 640,
+		"buildingCost": 260,
+		"wonderCost": 350,
+		"techs": [ 
+			{
+				"name": "Médecine",
+				"row": 4,
+				"prerequisites": ["radio"],
+				"quote": ""
+			},
+			{
+				"name": "Matière plastique",
+				"row": 5,
+				"prerequisites": ["radio"],
+				"quote": ""
+			},
+			{
+				"name": "Electronique",
+				"row": 6,
+				"prerequisites": ["Pièce de rechange" , "radio"],
+				"quote": ""
+			},
+			{
+				"name": "Balistique",
+				"row": 7,
+				"prerequisites": ["Aviation"],
+				"quote": ""
+			},
+			{
+				"name": "Combustion",
+				"row": 8,
+				"prerequisites": ["Voies férées" , "Dynamite"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Industrial era",
+		"techCost": 640,
+		"buildingCost": 260,
+		"wonderCost": 350,
+		"techs": [ 
+			{
+				"name": "Médecine",
+				"row": 4,
+				"prerequisites": ["radio"],
+				"quote": ""
+			},
+			{
+				"name": "Matière plastique",
+				"row": 5,
+				"prerequisites": ["radio"],
+				"quote": ""
+			},
+			{
+				"name": "Electronique",
+				"row": 6,
+				"prerequisites": ["Pièce de rechange" , "radio"],
+				"quote": ""
+			},
+			{
+				"name": "Balistique",
+				"row": 7,
+				"prerequisites": ["Aviation"],
+				"quote": ""
+			},
+			{
+				"name": "Combustion",
+				"row": 8,
+				"prerequisites": ["Voies férées" , "Dynamite"],
 				"quote": ""
 			}
 		]
