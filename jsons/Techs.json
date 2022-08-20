@@ -465,5 +465,38 @@
 				"quote": ""
 			}
 		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Industrial era",
+		"techCost": 640,
+		"buildingCost": 260,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Biologie",
+				"row": 4,
+				"prerequisites": ["Archeologie"],
+				"quote": ""
+			},
+			{
+				"name": "Electricité",
+				"row": 5,
+				"prerequisites": ["Industrialisation"],
+				"quote": ""
+			},
+			{
+				"name": "Moteur à vapeur",
+				"row": 7,
+				"prerequisites": ["Industrialisation" , "Fusil"],
+				"quote": ""
+			},
+			{
+				"name": "Explosif",
+				"row": 9,
+				"prerequisites": ["Engrais" , "Sciences militaires"],
+				"quote": ""
+			}
+		]
 	}
 ]
